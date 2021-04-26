@@ -1,0 +1,54 @@
+/*nav*/
+#nav{
+    display: block;
+}
+
+#nav a{
+    text-decoration: none;
+    list-style-type: none;
+    float: left;
+    padding: 15px;
+}
+
+#nav a:hover{
+    background-color: #38a1c5;
+    color: white;
+    
+}
+
+.page{
+    display: none;
+}
+/*nav*/
+
+
+
+body{
+    background-color: #38a1c5;
+}
+
+
+div{
+    background-color: #F8F8FF;
+}
+
+#del{
+    position:absolute;
+}
+
+#board{
+    width: 90%;
+    margin-left: 10%;
+}
+
+
+textarea{
+    outline: none;
+    border: none;
+    width: 150px;
+    height: 150px;
+    padding: 35px 20px 20px 20px;
+    background-color: #fffc99;
+    box-shadow: 10px 15px 10px 0px gray;
+}
+

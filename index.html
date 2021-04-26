@@ -1,0 +1,144 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+
+  <title>ToDone</title>
+
+  <link rel="stylesheet" href="stylesheet.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+ 
+ 
+  <script language="JavaScript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script language="JavaScript" type="text/javascript" src="script.js"></script>
+
+
+
+</head>
+
+<body>
+
+  <div id="nav" class="m-15">
+      <a href="#todo" id="nav_to">To Do</a>
+      <a href="#activity" id="nav_ac">Activity Generator</a>
+      <a href="#resources" id="nav_re">Resource Library</a>
+      <a href="#ideation" id="nav_id">Ideation Board</a>
+  </div>
+<br>
+  <div id="content">
+
+  <div id="todo" class="page">
+  <h1 class="mb-5">
+    To-do list
+  </h1>
+  <p>Don't get cocky and put the kind of trust in yourself to just "remember", jot it down and give yourself the capable adult experience</p>
+
+  <input type="text" id="text" class="form-control mb-3" placeholder="Ender to-do item">
+  <input type="date" id="tododate">
+  
+  <button id="todoadd" class="btn btn-primary">
+    Add
+  </button>
+
+  <button id="todoremove" class="btn btn-danger">
+    Remove
+  </button>
+
+  <div class="mb-3" id="list">
+
+    <ul class="list-group">
+      <li class="list-group-item">Items will go here</li>
+    </ul>
+
+  </div>
+
+
+</div>
+  
+<div id="activity" class="page">
+<h1 class="mb-5">Activity Generator</h1>
+<p>Sometimes you end up wasting time when you're deciding how to be productive, don't fall into that trap and let the higher powers of the computer decide for you
+</p>
+
+<input type="text" id="activs" class="form-control mb-3" placeholder="Enter Activities">
+<button id="adda" class="btn btn-primary" onclick="activarray()">Add</button>
+<button id="gen" onclick="genarray()" class="btn btn-secondary">Generate Activity</button>
+<div id="Result"></div> 
+<div id="Result2"></div>
+</div>
+
+<div id="resources" class="page">
+<h1 class="mb-5">Resource Library</h1>
+<p>The pain of finding a good resource and then letting it slip through your fingers because it gets lost in the myriad of searches in your history. Keep them safe by keeping them all here
+</p>
+<input type="text" id="text2" class="form-control mb-3" placeholder="Enter Resources">
+<button id="addr" class="btn btn-primary" onclick="addResource()">Add</button>
+<button id="remover" class="btn btn-danger">Remove</button>
+<div id="list2">
+<ul class="list-group">
+  <li class="list-group-item">https://www.youtube.com/watch?v=_B-54mvPup4</li>
+  <li class="list-group-item">https://www.w3resource.com/javascript-exercises/javascript-array-exercise-13.php</li>
+  <li class="list-group-item">https://www.w3resource.com/javascript-exercises/javascript-array-exercise-35.php</li>
+  <li class="list-group-item">https://www.w3schools.com/css/css_navbar.asp</li>
+  <li class="list-group-item">Resources will be added here</li>
+</ul>
+</div>
+</div>
+
+<div id="ideation" class="page">
+  <h1 class="mb-5">Ideation Board</h1>
+  <p>Place all your ideas here and hold a battle royale amongst them so you’re left with only the best</p>
+  
+  <div id="board">
+    <textarea placeholder="Write Note"></textarea>
+    <textarea placeholder="Write Note"></textarea>
+    <textarea placeholder="Write Note"></textarea>
+    <textarea placeholder="Write Note"></textarea>
+    <textarea placeholder="Write Note"></textarea>
+    <textarea placeholder="Write Note"></textarea>
+    <textarea placeholder="Write Note"></textarea>
+    <textarea placeholder="Write Note"></textarea>
+    <textarea placeholder="Write Note"></textarea>
+    <textarea placeholder="Write Note"></textarea>
+    <textarea placeholder="Write Note"></textarea>
+    <textarea placeholder="Write Note"></textarea>
+    <textarea placeholder="Write Note"></textarea>
+    <textarea placeholder="Write Note"></textarea>
+    <textarea placeholder="Write Note"></textarea>
+    <textarea placeholder="Write Note"></textarea>
+    <textarea placeholder="Write Note"></textarea>
+    <textarea placeholder="Write Note"></textarea>
+    <textarea placeholder="Write Note"></textarea>
+    <textarea placeholder="Write Note"></textarea>
+    <textarea placeholder="Write Note"></textarea>
+    <textarea placeholder="Write Note"></textarea>
+    <textarea placeholder="Write Note"></textarea>
+    <textarea placeholder="Write Note"></textarea>
+    <textarea placeholder="Write Note"></textarea>
+    <textarea placeholder="Write Note"></textarea>
+    <textarea placeholder="Write Note"></textarea>
+    <textarea placeholder="Write Note"></textarea>
+    <textarea placeholder="Write Note"></textarea>
+    <textarea placeholder="Write Note"></textarea>
+    <textarea placeholder="Write Note"></textarea>
+    <textarea placeholder="Write Note"></textarea>
+    <textarea placeholder="Write Note"></textarea>
+    <textarea placeholder="Write Note"></textarea>
+    <textarea placeholder="Write Note"></textarea>
+    <textarea placeholder="Write Note"></textarea>
+    <textarea placeholder="Write Note"></textarea>
+    <textarea placeholder="Write Note"></textarea>
+    <textarea placeholder="Write Note"></textarea>
+    <textarea placeholder="Write Note"></textarea>
+    <textarea placeholder="Write Note"></textarea>
+    <textarea placeholder="Write Note"></textarea>
+  </div>
+
+</div>
+ 
+
+</div>
+
+</body>
+</html>
